@@ -1,2 +1,2 @@
-# DagonMod version .0.0.1
+# DagonMod version 0.0.1
 Lets make dragons
