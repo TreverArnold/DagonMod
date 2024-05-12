@@ -20,7 +20,10 @@ public class Modblocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, DagonMod.MODID);
 
     public static final RegistryObject<Block> TITANIUM_BLOCK = registorBlock("titanium_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+
+    public static final RegistryObject<Block> TITANIUM_ORE = registorBlock("titanium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
 
 
     private static <T extends Block> RegistryObject<T> registorBlock(String name, Supplier<T> block){

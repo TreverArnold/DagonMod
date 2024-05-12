@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dagonmod:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "dagonmod:titanium",
+    "count": 9
+  }
+}
