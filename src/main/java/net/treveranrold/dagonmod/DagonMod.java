@@ -45,8 +45,7 @@ public class DagonMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-        }
+
     }
 
     @SubscribeEvent

@@ -20,6 +20,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(Moditems.DAGONEGG.get());
                         pOutput.accept(Moditems.ENDERDAGONEGG.get());
+                        pOutput.accept(Moditems.DAGONORE.get());
+                        pOutput.accept(Moditems.ENDERDAGONORE.get());
+                        pOutput.accept(Moditems.ULTIMATEDAGONORE.get());
                     })
                     .build());
 

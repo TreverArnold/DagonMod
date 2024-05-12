@@ -1,5 +1,8 @@
 {
   "item.dagonmod.dagonegg": "Dagon Egg",
   "item.dagonmod.enderdagonegg": "Enderdagon Egg",
+  "item.dagonmod.dagonore": "Dagon Ore",
+  "item.dagonmod.enderdagonore": "Enderdagon Ore",
+  "item.dagonmod.ultimatedagonore": "Ultimatedagon Ore",
   "creativetab.dagon_tab": "Dagon Eggs"
 }
