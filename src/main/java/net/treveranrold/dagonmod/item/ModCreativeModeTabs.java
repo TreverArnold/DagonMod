@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(Moditems.TITANIUM.get());
                         pOutput.accept(Modblocks.TITANIUM_BLOCK.get());
+                        pOutput.accept(Modblocks.TITANIUM_ORE.get());
                     })
                     .build());
 
