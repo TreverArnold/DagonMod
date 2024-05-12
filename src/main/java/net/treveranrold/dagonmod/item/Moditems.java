@@ -26,6 +26,9 @@ public class Moditems {
     public static final RegistryObject<Item> ULTIMATEDAGONORE = ITEMS.register("ultimatedagonore",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TITANIUM = ITEMS.register("titanium",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

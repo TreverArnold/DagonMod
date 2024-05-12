@@ -4,5 +4,8 @@
   "item.dagonmod.dagonore": "Dagon Ore",
   "item.dagonmod.enderdagonore": "Enderdagon Ore",
   "item.dagonmod.ultimatedagonore": "Ultimatedagon Ore",
-  "creativetab.dagon_tab": "Dagon Eggs"
+  "item.dagonmod.titanium": "Titanium",
+  "creativetab.dagon_tab": "Dagon Eggs",
+  "creativetab.material_tab": "Dagon Mod Materials",
+  "block.dagonmod.titanium_block": "Titanium Block"
 }
