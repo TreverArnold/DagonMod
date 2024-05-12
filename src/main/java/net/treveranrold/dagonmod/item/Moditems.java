@@ -17,6 +17,18 @@ public class Moditems {
     public static final RegistryObject<Item> ENDERDAGONEGG = ITEMS.register("enderdagonegg",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ENDERDAGONORE = ITEMS.register("enderdagonore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DAGONORE = ITEMS.register("dagonore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ULTIMATEDAGONORE = ITEMS.register("ultimatedagonore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> TITANIUM = ITEMS.register("titanium",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

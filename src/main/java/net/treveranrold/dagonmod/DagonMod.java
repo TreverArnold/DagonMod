@@ -14,6 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.treveranrold.dagonmod.block.Modblocks;
 import net.treveranrold.dagonmod.item.ModCreativeModeTabs;
 import net.treveranrold.dagonmod.item.Moditems;
 import org.slf4j.Logger;
@@ -33,6 +34,7 @@ public class DagonMod
         ModCreativeModeTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        Modblocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -45,8 +47,7 @@ public class DagonMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-        }
+
     }
 
     @SubscribeEvent
